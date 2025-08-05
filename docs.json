@@ -2,6 +2,7 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "aspen",
   "name": "Tenantum",
+  "description": "Tenantum is a powerful property management platform for landlords to manage properties, tenants, leases, and rent collection effortlessly.",
   "colors": {
     "primary": "#72D400",
     "light": "#72D400",
@@ -9,6 +10,27 @@
   },
   "favicon": "/favicon.svg",
   "mode": "light",
+  "appearance": {
+    "default": "light",
+    "strict": true
+  },
+  "seo": {
+    "metatags": {
+      "title": "Tenantum Documentation - Modern Property Management Platform",
+      "description": "Learn how to use Tenantum, the all-in-one property management platform for landlords and property managers. Manage properties, tenants, leases, rent collection, payments, and tenant portals effortlessly.",
+      "keywords": "property management, landlord software, tenant portal, rent collection, lease management, rental property software, Tenantum",
+      "author": "Tenantum",
+      "robots": "index, follow",
+      "og:title": "Tenantum Documentation - Modern Property Management Platform",
+      "og:description": "Tenantum helps landlords manage properties, tenants, leases, rent payments, and tenant portals from one dashboard.",
+      "og:type": "website",
+      "og:site_name": "Tenantum Documentation",
+      "twitter:card": "summary_large_image",
+      "twitter:title": "Tenantum Documentation - Modern Property Management Platform",
+      "twitter:description": "Simplify property management with Tenantum: properties, tenants, leases, rent collection, and tenant portals in one platform."
+    },
+    "indexing": "all"
+  },
   "navigation": {
     "tabs": [
       {
