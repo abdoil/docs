@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Tenantum",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -14,55 +14,72 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
               "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "onboarding"
             ]
           },
           {
             "group": "Core Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "features/properties",
+              "features/units",
+              "features/tenants-leases",
+              "features/rent-payments"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Maintenance",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "maintenance/requests",
+              "maintenance/status-tracking"
+            ]
+          },
+          {
+            "group": "Notifications",
+            "pages": [
+              "notifications/rent-reminders",
+              "notifications/lease-expiry"
             ]
           }
         ]
       },
       {
-        "tab": "API reference",
+        "tab": "Configuration",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Settings",
             "pages": [
-              "api-reference/introduction"
+              "settings/account",
+              "settings/payment",
+              "settings/subscription"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Reports",
+        "groups": [
           {
-            "group": "Endpoint examples",
+            "group": "Basic Reports",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "reports/rent-roll",
+              "reports/income-summary"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Support",
+        "groups": [
+          {
+            "group": "Help",
+            "pages": [
+              "support/troubleshooting",
+              "support/faq",
+              "support/contact"
             ]
           }
         ]
@@ -72,17 +89,17 @@
       "anchors": [
         {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://tenantum.docs",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
-          "href": "https://mintlify.com/community",
+          "href": "https://community.tenantum.com",
           "icon": "slack"
         },
         {
           "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "href": "https://tenantum.blog",
           "icon": "newspaper"
         }
       ]
@@ -96,32 +113,32 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@tenantum.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://app.tenantum.com"
     }
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/tenantum",
+      "github": "https://github.com/tenantum",
+      "linkedin": "https://linkedin.com/company/tenantum"
     }
   }
 }
