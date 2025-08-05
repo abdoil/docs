@@ -3,11 +3,12 @@
   "theme": "mint",
   "name": "Tenantum",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#72D400",
+    "light": "#72D400",
+    "dark": "#72D400"
   },
   "favicon": "/favicon.svg",
+  "mode": "light", 
   "navigation": {
     "tabs": [
       {
