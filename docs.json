@@ -29,7 +29,7 @@
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Core Features",
             "pages": [
               "essentials/markdown",
               "essentials/code",
