@@ -14,6 +14,13 @@
     "default": "light",
     "strict": true
   },
+  "background": {
+    "color": {
+      "light": "#f1fbe6",
+      "dark": "#f1fbe6"
+    },
+    "decoration": "window"
+  },
   "seo": {
     "metatags": {
       "title": "Tenantum Documentation - Modern Property Management Platform",
@@ -94,9 +101,9 @@
           "icon": "headset"
         },
         {
-          "anchor": "Blog",
-          "href": "https://tenantum.com/blog",
-          "icon": "newspaper"
+          "anchor": "Changelog",
+          "href": "https://tenantum.com/changelog",
+          "icon": "file-pen"
         }
       ]
     }
