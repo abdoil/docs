@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "aspen",
   "name": "Tenantum",
   "colors": {
     "primary": "#72D400",
@@ -18,8 +18,8 @@
             "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "onboarding"
+              "onboarding",
+              "quickstart"
             ]
           },
           {
