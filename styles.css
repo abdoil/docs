@@ -1,16 +1,5 @@
 /* Custom styles for Tenantum Documentation */
 
-/* Hide dark mode toggle button - more targeted approach */
-button[aria-label="Toggle dark mode"],
-[data-testid="theme-toggle"],
-[class*="theme-toggle"],
-[class*="dark-mode-toggle"] {
-  display: none !important;
-  visibility: hidden !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-}
-
 /* Enhanced card hover effects */
 .card {
   transition: all 0.3s ease-in-out;
@@ -184,5 +173,17 @@ code {
 
   .card {
     margin-bottom: 1rem;
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .gradient-secondary {
+    background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  }
+
+  .callout {
+    background: #2d3748;
+    color: #f7fafc;
   }
 }

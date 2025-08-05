@@ -5,18 +5,15 @@
   "colors": {
     "primary": "#72D400",
     "light": "#72D400",
-    "dark": "#72D400",
-    "background": "#ffffff",
-    "text": "#374151",
-    "textDark": "#374151"
+    "dark": "#72D400"
   },
   "favicon": "/favicon.svg",
   "mode": "light",
-  "themeToggle": false,
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
+        "icon": "book-open-cover",
         "groups": [
           {
             "group": "Getting Started",
@@ -28,37 +25,18 @@
               "features/properties",
               "features/units",
               "features/tenants-leases",
-              "features/rent-payments"
-            ]
-          },
-          {
-            "group": "Maintenance",
-            "pages": ["maintenance/requests", "maintenance/status-tracking"]
-          },
-          {
-            "group": "Notifications",
-            "pages": [
-              "notifications/rent-reminders",
-              "notifications/lease-expiry"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Configuration",
-        "groups": [
-          {
-            "group": "Settings",
-            "pages": [
-              "settings/account",
-              "settings/payment",
-              "settings/subscription"
+              "features/income",
+              "features/expenses",
+              "features/maintenance",
+              "features/reports",
+              "features/leads"
             ]
           }
         ]
       },
       {
         "tab": "Reports",
+        "icon": "chart-line",
         "groups": [
           {
             "group": "Basic Reports",
@@ -68,6 +46,7 @@
       },
       {
         "tab": "Support",
+        "icon": "headset",
         "groups": [
           {
             "group": "Help",
@@ -83,18 +62,18 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://tenantum.docs",
-          "icon": "book-open-cover"
+          "anchor": "Home",
+          "href": "https://tenantum.com",
+          "icon": "house"
         },
         {
-          "anchor": "Community",
-          "href": "https://community.tenantum.com",
-          "icon": "slack"
+          "anchor": "Support",
+          "href": "https://tenantum.com/support",
+          "icon": "headset"
         },
         {
           "anchor": "Blog",
-          "href": "https://tenantum.blog",
+          "href": "https://tenantum.com/blog",
           "icon": "newspaper"
         }
       ]
@@ -102,18 +81,18 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/light.svg"
+    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@tenantum.com"
+        "label": "Tenant Portal",
+        "href": "https://tenantum.com/tenant-portal"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "Landlord Dashboard",
       "href": "https://app.tenantum.com"
     }
   },
