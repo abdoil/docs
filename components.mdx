@@ -1,0 +1,343 @@
+---
+title: "UI Components"
+description: "Reusable UI components and styling patterns for Tenantum documentation"
+---
+
+## Styling Guidelines
+
+This page contains reusable UI components and styling patterns for consistent design across the Tenantum documentation.
+
+## Card Components
+
+### Standard Card
+
+```jsx
+<Card title="Card Title" icon="icon-name" href="/link">
+  Card content goes here.
+</Card>
+```
+
+### Styled Card with Custom Background
+
+```jsx
+<Card
+  title="Styled Card"
+  icon="icon-name"
+  href="/link"
+  style={{
+    background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+    border: "1px solid #72D400",
+    borderRadius: "0.75rem",
+  }}
+>
+  Card with custom styling.
+</Card>
+```
+
+### Card with Hover Effects
+
+```jsx
+<Card
+  title="Interactive Card"
+  icon="icon-name"
+  href="/link"
+  style={{
+    transition: "transform 0.2s ease-in-out",
+    ":hover": { transform: "translateY(-4px)" },
+  }}
+>
+  Card with hover animation.
+</Card>
+```
+
+## Callout Boxes
+
+### Primary Callout
+
+<div
+  style={{
+    background: "#f8f9fa",
+    borderLeft: "4px solid #72D400",
+    padding: "1rem",
+    borderRadius: "0 8px 8px 0",
+    margin: "1rem 0",
+  }}
+>
+  <strong>Info:</strong> This is a primary callout box using your brand color.
+</div>
+
+### Light Callout
+
+<div
+  style={{
+    background: "#f8f9fa",
+    borderLeft: "4px solid #e9ecef",
+    padding: "1rem",
+    borderRadius: "0 8px 8px 0",
+    margin: "1rem 0",
+  }}
+>
+  <strong>Note:</strong> This is a light callout box for secondary information.
+</div>
+
+### Success Callout
+
+<div
+  style={{
+    background: "#e8f5e8",
+    borderLeft: "4px solid #4caf50",
+    padding: "1rem",
+    borderRadius: "0 8px 8px 0",
+    margin: "1rem 0",
+  }}
+>
+  <strong>Success:</strong> This is a success callout box.
+</div>
+
+### Warning Callout
+
+<div
+  style={{
+    background: "#fff3e0",
+    borderLeft: "4px solid #ff9800",
+    padding: "1rem",
+    borderRadius: "0 8px 8px 0",
+    margin: "1rem 0",
+  }}
+>
+  <strong>Warning:</strong> This is a warning callout box.
+</div>
+
+### Error Callout
+
+<div
+  style={{
+    background: "#fce4ec",
+    borderLeft: "4px solid #e91e63",
+    padding: "1rem",
+    borderRadius: "0 8px 8px 0",
+    margin: "1rem 0",
+  }}
+>
+  <strong>Error:</strong> This is an error callout box.
+</div>
+
+## Button Styles
+
+### Primary Button
+
+<a
+  href="/link"
+  style={{
+    display: "inline-block",
+    background: "#72D400",
+    color: "white",
+    padding: "0.75rem 1.5rem",
+    borderRadius: "0.5rem",
+    textDecoration: "none",
+    fontWeight: "600",
+    transition: "background-color 0.2s ease-in-out",
+  }}
+>
+  Primary Button
+</a>
+
+### Secondary Button
+
+<a
+  href="/link"
+  style={{
+    display: "inline-block",
+    background: "transparent",
+    color: "#72D400",
+    padding: "0.75rem 1.5rem",
+    borderRadius: "0.5rem",
+    textDecoration: "none",
+    fontWeight: "600",
+    border: "2px solid #72D400",
+    transition: "all 0.2s ease-in-out",
+  }}
+>
+  Secondary Button
+</a>
+
+### Light Button
+
+<a
+  href="/link"
+  style={{
+    display: "inline-block",
+    background: "#f8f9fa",
+    color: "#374151",
+    padding: "0.75rem 1.5rem",
+    borderRadius: "0.5rem",
+    textDecoration: "none",
+    fontWeight: "600",
+    border: "1px solid #e9ecef",
+    transition: "all 0.2s ease-in-out",
+  }}
+>
+  Light Button
+</a>
+
+## Gradient Backgrounds
+
+### Primary Gradient
+
+<div
+  style={{
+    background: "linear-gradient(135deg, #72D400 0%, #5AB800 100%)",
+    padding: "2rem",
+    borderRadius: "1rem",
+    color: "white",
+    textAlign: "center",
+  }}
+>
+  <h2 style={{ margin: "0 0 1rem 0" }}>Primary Gradient</h2>
+  <p style={{ margin: "0", opacity: "0.9" }}>
+    Content with primary gradient background.
+  </p>
+</div>
+
+### Light Gradient
+
+<div
+  style={{
+    background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+    padding: "2rem",
+    borderRadius: "1rem",
+    border: "1px solid #dee2e6",
+  }}
+>
+  <h2 style={{ margin: "0 0 1rem 0" }}>Light Gradient</h2>
+  <p style={{ margin: "0", color: "#6c757d" }}>
+    Content with light gradient background.
+  </p>
+</div>
+
+### Subtle Gradient
+
+<div
+  style={{
+    background: "linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%)",
+    padding: "2rem",
+    borderRadius: "1rem",
+    border: "1px solid #e9ecef",
+  }}
+>
+  <h2 style={{ margin: "0 0 1rem 0" }}>Subtle Gradient</h2>
+  <p style={{ margin: "0", color: "#6c757d" }}>
+    Content with subtle gradient background.
+  </p>
+</div>
+
+## Feature Lists
+
+### Bullet Points with Icons
+
+<ul style={{ listStyle: "none", padding: "0" }}>
+  <li
+    style={{
+      display: "flex",
+      alignItems: "center",
+      marginBottom: "0.5rem",
+      padding: "0.5rem",
+      borderRadius: "0.5rem",
+      background: "#f8f9fa",
+    }}
+  >
+    <span style={{ marginRight: "0.5rem", color: "#72D400" }}>✓</span>
+    Feature item with icon
+  </li>
+  <li
+    style={{
+      display: "flex",
+      alignItems: "center",
+      marginBottom: "0.5rem",
+      padding: "0.5rem",
+      borderRadius: "0.5rem",
+      background: "#f8f9fa",
+    }}
+  >
+    <span style={{ marginRight: "0.5rem", color: "#72D400" }}>✓</span>
+    Another feature item
+  </li>
+  <li
+    style={{
+      display: "flex",
+      alignItems: "center",
+      marginBottom: "0.5rem",
+      padding: "0.5rem",
+      borderRadius: "0.5rem",
+      background: "#f8f9fa",
+    }}
+  >
+    <span style={{ marginRight: "0.5rem", color: "#72D400" }}>✓</span>
+    Third feature item
+  </li>
+</ul>
+
+## Code Styling
+
+### Inline Code
+
+Use `code` for inline code snippets.
+
+### Code Blocks
+
+```javascript
+// Example code block
+function example() {
+  console.log("Hello, Tenantum!");
+}
+```
+
+## Responsive Design
+
+### Mobile-First Approach
+
+<div
+  style={{
+    background: "#f8f9fa",
+    padding: "1rem",
+    borderRadius: "0.5rem",
+    margin: "1rem 0",
+  }}
+>
+  <p style={{ margin: "0", fontSize: "0.9rem" }}>
+    <strong>Note:</strong> All components are designed to be responsive and work
+    well on mobile devices.
+  </p>
+</div>
+
+## Color Palette
+
+### Primary Colors
+
+- **Primary Green:** `#72D400`
+- **Primary Dark:** `#5AB800` (for gradients and hover states)
+- **Text Primary:** `#374151`
+- **Text Secondary:** `#6c757d`
+
+### Background Colors
+
+- **Background Light:** `#ffffff`
+- **Background Gray:** `#f8f9fa`
+- **Border Light:** `#e9ecef`
+
+### Accent Colors (for specific use cases only)
+
+- **Success Green:** `#4caf50` (for success states)
+- **Warning Orange:** `#ff9800` (for warnings)
+- **Error Pink:** `#e91e63` (for errors)
+
+## Light Mode Only
+
+This documentation is designed for light mode only. The theme switcher has been disabled to maintain consistent branding and user experience.
+
+### Benefits of Light Mode Only:
+
+- **Consistent Branding:** Maintains your green (#72D400) brand color visibility
+- **Better Readability:** High contrast text on light backgrounds
+- **Simplified Maintenance:** No need to maintain dark mode styles
+- **Professional Appearance:** Clean, modern look that matches your brand

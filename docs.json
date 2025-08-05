@@ -5,10 +5,14 @@
   "colors": {
     "primary": "#72D400",
     "light": "#72D400",
-    "dark": "#72D400"
+    "dark": "#72D400",
+    "background": "#ffffff",
+    "text": "#374151",
+    "textDark": "#374151"
   },
   "favicon": "/favicon.svg",
-  "mode": "light", 
+  "mode": "light",
+  "themeToggle": false,
   "navigation": {
     "tabs": [
       {
@@ -16,11 +20,7 @@
         "groups": [
           {
             "group": "Getting Started",
-            "pages": [
-              "index",
-              "onboarding",
-              "quickstart"
-            ]
+            "pages": ["index", "onboarding", "quickstart"]
           },
           {
             "group": "Core Features",
@@ -33,10 +33,7 @@
           },
           {
             "group": "Maintenance",
-            "pages": [
-              "maintenance/requests",
-              "maintenance/status-tracking"
-            ]
+            "pages": ["maintenance/requests", "maintenance/status-tracking"]
           },
           {
             "group": "Notifications",
@@ -65,10 +62,7 @@
         "groups": [
           {
             "group": "Basic Reports",
-            "pages": [
-              "reports/rent-roll",
-              "reports/income-summary"
-            ]
+            "pages": ["reports/rent-roll", "reports/income-summary"]
           }
         ]
       },
@@ -108,7 +102,7 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/light.svg"
   },
   "navbar": {
     "links": [

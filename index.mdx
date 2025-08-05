@@ -3,54 +3,303 @@ title: "Introduction"
 description: "Welcome to Tenantum – your property management companion"
 ---
 
-## Setting up
+<div
+  style={{
+    background: "linear-gradient(135deg, #72D400 0%, #5AB800 100%)",
+    borderRadius: "1rem",
+    padding: "2rem",
+    marginBottom: "2rem",
+    color: "white",
+    textAlign: "center",
+  }}
+>
+  <h1 style={{ margin: "0 0 1rem 0", fontSize: "2.5rem", fontWeight: "700" }}>
+    Welcome to Tenantum
+  </h1>
+  <p style={{ fontSize: "1.2rem", margin: "0", opacity: "0.9" }}>
+    Your complete property management solution for landlords and property
+    managers
+  </p>
+</div>
 
-Get started with Tenantum in just a few steps.
+## 🚀 Quick Start
 
-<Card title="Start here" icon="rocket" horizontal href="/quickstart">
-  Follow our three-step quickstart guide to set up your first property and tenant.
+Get up and running with Tenantum in just a few minutes.
+
+<Card
+  title="Quick Start Guide"
+  icon="rocket"
+  horizontal
+  href="/quickstart"
+  style={{
+    background: "linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%)",
+    border: "2px solid #72D400",
+    borderRadius: "0.75rem",
+  }}
+>
+  Follow our step-by-step guide to set up your first property, add tenants, and
+  start managing your rentals effectively.
 </Card>
 
-## Make it yours
+## 🎯 Core Features
 
-Personalize your Tenantum account to fit your needs.
+Everything you need to manage your rental properties efficiently.
 
-<Columns cols={2}>
-  <Card title="Set up your profile" icon="user" href="/onboarding">
-    Complete your landlord profile and upload your branding.
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+    gap: "1rem",
+    marginBottom: "2rem",
+  }}
+>
+  <Card
+    title="Property Management"
+    icon="building"
+    href="/features/properties"
+    style={{
+      transition: "transform 0.2s ease-in-out",
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <div style={{ marginBottom: "1rem" }}>
+      <strong>Organize properties and units</strong>
+    </div>
+    <ul
+      style={{
+        margin: "0",
+        paddingLeft: "1rem",
+        fontSize: "0.9rem",
+        color: "#666",
+        flex: "1",
+      }}
+    >
+      <li>Add properties and units</li>
+      <li>Track occupancy status</li>
+      <li>Manage property details</li>
+    </ul>
   </Card>
-  <Card title="Add your first property" icon="house" href="/features/properties">
-    Create and configure your first property in minutes.
-  </Card>
-  <Card title="Add tenants and leases" icon="file-contract" href="/features/tenants-leases">
-    Add tenants and set up their lease agreements.
-  </Card>
-  <Card title="Track rent payments" icon="money-bill" href="/features/rent-payments">
-    Record payments and track outstanding balances.
-  </Card>
-</Columns>
 
-## Explore Core Features
-
-Everything you need to manage your rentals.
-
-<Columns cols={2}>
-  <Card title="Properties & Units" icon="building" href="/features/properties">
-    Organize and manage properties, units, and occupancy status.
+  <Card
+    title="Tenant & Lease Management"
+    icon="id-card"
+    href="/features/tenants-leases"
+    style={{
+      transition: "transform 0.2s ease-in-out",
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <div style={{ marginBottom: "1rem" }}>
+      <strong>Manage tenants and agreements</strong>
+    </div>
+    <ul
+      style={{
+        margin: "0",
+        paddingLeft: "1rem",
+        fontSize: "0.9rem",
+        color: "#666",
+        flex: "1",
+      }}
+    >
+      <li>Add tenant profiles</li>
+      <li>Create lease agreements</li>
+      <li>Track lease terms</li>
+    </ul>
   </Card>
-  <Card title="Tenant & Lease Management" icon="id-card" href="/features/tenants-leases">
-    Manage tenants, leases, and rental terms with ease.
-  </Card>
-  <Card title="Rent Collection" icon="credit-card" href="/features/rent-payments">
-    Track rent payments and overdue balances.
-  </Card>
-  <Card title="Maintenance Requests" icon="tools" href="/maintenance/requests">
-    Log, track, and resolve tenant maintenance requests.
-  </Card>
-</Columns>
 
-## Need help?
+  <Card
+    title="Rent Collection"
+    icon="credit-card"
+    href="/features/rent-payments"
+    style={{
+      transition: "transform 0.2s ease-in-out",
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <div style={{ marginBottom: "1rem" }}>
+      <strong>Track payments and balances</strong>
+    </div>
+    <ul
+      style={{
+        margin: "0",
+        paddingLeft: "1rem",
+        fontSize: "0.9rem",
+        color: "#666",
+        flex: "1",
+      }}
+    >
+      <li>Record rent payments</li>
+      <li>Track overdue balances</li>
+      <li>Generate payment reports</li>
+    </ul>
+  </Card>
 
-<Card title="Visit Support" icon="life-ring" href="/support/troubleshooting">
-  Access our FAQ and support resources for quick assistance.
+  <Card
+    title="Maintenance Requests"
+    icon="tools"
+    href="/maintenance/requests"
+    style={{
+      transition: "transform 0.2s ease-in-out",
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <div style={{ marginBottom: "1rem" }}>
+      <strong>Handle maintenance efficiently</strong>
+    </div>
+    <ul
+      style={{
+        margin: "0",
+        paddingLeft: "1rem",
+        fontSize: "0.9rem",
+        color: "#666",
+        flex: "1",
+      }}
+    >
+      <li>Log maintenance requests</li>
+      <li>Track request status</li>
+      <li>Assign to contractors</li>
+    </ul>
+  </Card>
+</div>
+
+## ⚙️ Setup & Configuration
+
+Personalize your Tenantum experience to match your workflow.
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+    gap: "1rem",
+    marginBottom: "2rem",
+  }}
+>
+  <Card
+    title="Complete Your Profile"
+    icon="user"
+    href="/onboarding"
+    style={{
+      background: "linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%)",
+      border: "1px solid #2196f3",
+      height: "100%",
+    }}
+  >
+    Set up your landlord profile, upload branding, and configure your account
+    preferences.
+  </Card>
+
+  <Card
+    title="Account Settings"
+    icon="settings"
+    href="/settings/account"
+    style={{
+      background: "linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%)",
+      border: "1px solid #9c27b0",
+      height: "100%",
+    }}
+  >
+    Configure payment methods, subscription settings, and notification
+    preferences.
+  </Card>
+</div>
+
+## 📊 Reports & Analytics
+
+Get insights into your rental business performance.
+
+<Card
+  title="View Reports"
+  icon="chart-bar"
+  href="/reports/rent-roll"
+  style={{
+    background: "linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%)",
+    border: "1px solid #4caf50",
+  }}
+>
+  Access rent roll reports, income summaries, and other analytics to track your
+  property performance.
 </Card>
+
+## 🆘 Need Help?
+
+We're here to help you succeed with Tenantum.
+
+<div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+    gap: "1rem",
+    marginBottom: "2rem",
+  }}
+>
+  <Card
+    title="Support Center"
+    icon="life-ring"
+    href="/support/troubleshooting"
+    style={{
+      background: "linear-gradient(135deg, #fff3e0 0%, #ffcc80 100%)",
+      border: "1px solid #ff9800",
+      height: "100%",
+    }}
+  >
+    Browse our FAQ, troubleshooting guides, and support resources for quick
+    answers.
+  </Card>
+
+  <Card
+    title="Contact Support"
+    icon="envelope"
+    href="mailto:support@tenantum.com"
+    style={{
+      background: "linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%)",
+      border: "1px solid #e91e63",
+      height: "100%",
+    }}
+  >
+    Get personalized help from our support team via email or live chat.
+  </Card>
+</div>
+
+<div
+  style={{
+    background: "#f8f9fa",
+    borderRadius: "0.75rem",
+    padding: "1.5rem",
+    marginTop: "2rem",
+    border: "1px solid #e9ecef",
+    textAlign: "center",
+  }}
+>
+  <h3 style={{ margin: "0 0 0.5rem 0", color: "#495057" }}>
+    Ready to get started?
+  </h3>
+  <p style={{ margin: "0", color: "#6c757d" }}>
+    Follow our quickstart guide to set up your first property and start managing
+    your rentals today.
+  </p>
+  <div style={{ marginTop: "1rem" }}>
+    <a
+      href="/quickstart"
+      style={{
+        display: "inline-block",
+        background: "#72D400",
+        color: "white",
+        padding: "0.75rem 1.5rem",
+        borderRadius: "0.5rem",
+        textDecoration: "none",
+        fontWeight: "600",
+        transition: "background-color 0.2s ease-in-out",
+      }}
+    >
+      Get Started Now
+    </a>
+  </div>
+</div>
